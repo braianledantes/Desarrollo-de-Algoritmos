@@ -1,3 +1,5 @@
+package ejercicio;
+
 import java.io.*;
 import java.util.*;
 
