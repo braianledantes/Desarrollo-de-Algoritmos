@@ -1,6 +1,6 @@
 package recursion;
 
-public class TestRecursion {
+public class RecursionTest {
 
     public static void main(String[] args) {
         factorial(1,-1);
@@ -34,28 +34,28 @@ public class TestRecursion {
 
     public static void factorial(int result, int value) {
         long iniTime = System.currentTimeMillis();
-        boolean r = result == RecursionAlgorithms.factorial(value);
+        boolean r = result == RecursiveAlgorithms.factorial(value);
         long endTime = System.currentTimeMillis() - iniTime;
         System.out.println("factorial: " + r + ", Time: " + endTime);
     }
 
     public static void toBinary(int result, int value) {
         long iniTime = System.currentTimeMillis();
-        boolean r = result == RecursionAlgorithms.toBinary(value);
+        boolean r = result == RecursiveAlgorithms.toBinary(value);
         long endTime = System.currentTimeMillis() - iniTime;
         System.out.println("toBinary: " + r + ", Time: " + endTime);
     }
 
     public static void contieneMellizos(boolean result, int value) {
         long iniTime = System.currentTimeMillis();
-        boolean r = (result == RecursionAlgorithms.contieneMellizos(value));
+        boolean r = (result == RecursiveAlgorithms.contieneMellizos(value));
         long endTime = System.currentTimeMillis() - iniTime;
         System.out.println("contieneMellizos: " + r + ", Time: " + endTime);
     }
 
     public static void cantidadCeros(int result, int value) {
         long iniTime = System.currentTimeMillis();
-        boolean r = (result == RecursionAlgorithms.cantidadCeros(value));
+        boolean r = (result == RecursiveAlgorithms.cantidadCeros(value));
         long endTime = System.currentTimeMillis() - iniTime;
         System.out.println("cantidadCeros: " + r + ", Time: " + endTime);
     }

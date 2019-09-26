@@ -26,9 +26,9 @@ public class Test {
 
         showArray(messyArray2);
         //Test.ordenacionSeleccion(sortArray, messyArray);
-        //Test.bubbleShort(sortArray, messyArray);
+        Test.bubbleSort(sortArray, messyArray);
         //Test.insertionSort(sortArray, messyArray);
-        Test.quickSort(sortArray, messyArray2);
+        //Test.quickSort(sortArray, messyArray2);
         showArray(messyArray2);
         //Test.equals(true, sortArray, sortArray);
         //Test.equals(false, sortArray, messyArray);

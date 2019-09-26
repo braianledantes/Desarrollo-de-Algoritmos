@@ -1,6 +1,6 @@
 package recursion;
 
-public class RecursionAlgorithms {
+public class RecursiveAlgorithms {
 
     //------------------------------------------------------------------------------------------------------------------
     public static void main(String[] args) {
